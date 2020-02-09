@@ -1,5 +1,5 @@
 var getData= require('./computeData.js');
-
+var saveData = require('./saveFileToJSON.js');
 const clicks_object=[
 
   { "ip":"22.22.22.22", "timestamp":"3/11/2016 02:02:58", "amount": 7.00 },
@@ -36,4 +36,7 @@ const clicks_object=[
   { "ip":"22.22.22.22", "timestamp":"3/11/2016 23:59:59", "amount": 9.00 }
 ]
 
-const result= getData.clicks_subset(clicks_object);
+const result= getData.clicksComputeSubset(clicks_object);
+
+// Save the final computed result into a new file 
+saveData.saveFile(result);

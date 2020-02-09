@@ -1,4 +1,4 @@
-const get_clicks_subset = clicks_object =>{
+const getClicksSubset = clicks_object =>{
     let result_object={};
     let result_count={};
     let final_result=[];
@@ -16,7 +16,8 @@ const get_clicks_subset = clicks_object =>{
     });
     final_result = final_result.concat(Object.values(result_object));
     final_result =  removeGreaterTenIP(final_result,result_count);
-    console.log(final_result);
+    // console.log(final_result);
+    return final_result;
 
 }
 
@@ -56,5 +57,5 @@ const getTimeStamp = element =>{
     return time_period_hours
 }
 module.exports = {
-    clicks_subset : get_clicks_subset
+    clicksComputeSubset : getClicksSubset
 }
