@@ -1,7 +1,7 @@
-# clicks_js
+# solution_Nikhita_Zulka
 ### Test Assessment
 
-Have made use of node and npm.
+Have made use of node, npm and javascript while creating this solution.
 
 ### Requirements
 Given an array of clicks, return the subset of clicks where:
@@ -19,7 +19,7 @@ Mocha is used for writing test in this. Test cases are written only on basic lev
 
 ### List of Files Used
 
-1. `index.js` - The main file that will execute the code and call the required functions with the actual data (json data).
+ 1. `index.js` - The main file that will execute the code and call the required functions with the actual data (json data).
  2. `computeData.js` - Main logic function, that accets the `clicks_object` array and return the resulted array.
  3. `saveFileToJSON.js` - Saves the array recieved as argument to the JSON file.
  4. `test.js` - Executes test cases.
@@ -29,11 +29,11 @@ Mocha is used for writing test in this. Test cases are written only on basic lev
  ### Installation Process
 
  First, unzip the folder and open the terminal on the extracted folder.
- Use the package manager npm to install all the required packages using the terminal by using command npm i or npm install
+ Second, use the package manager 'npm' to install all the required packages, using command npm i or npm install in the terminal.
 
  ### Running the code
- To run the solution:
+ Command to run the solution:
     npm run solution
 
- To run the test cases:
+ Command to run the test cases:
     npm run test
