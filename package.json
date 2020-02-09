@@ -4,7 +4,7 @@
   "description": "Coding Assessment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "solution": "node index.js"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nikx12/clicks_js/issues"
   },
-  "homepage": "https://github.com/nikx12/clicks_js#readme"
+  "homepage": "https://github.com/nikx12/clicks_js#readme",
+  "dependencies": {
+    "mocha": "^7.0.1"
+  }
 }
