@@ -24,6 +24,7 @@ Mocha is used for writing test in this. Test cases are written only on basic lev
  3. `saveFileToJSON.js` - Saves the array recieved as argument to the JSON file.
  4. `test.js` - Executes test cases.
  5. `test_inputs.js` - Holds the Test file's input and output data.
+ 6. `resultset.json` - Stores the final output.
 
  ### Installation Process
 
@@ -31,8 +32,8 @@ Mocha is used for writing test in this. Test cases are written only on basic lev
  Use the package manager npm to install all the required packages using the terminal by using command npm i or npm install
 
  ### Running the code
- To run the solution
+ To run the solution:
     npm run solution
 
- To run the test cases
+ To run the test cases:
     npm run test
